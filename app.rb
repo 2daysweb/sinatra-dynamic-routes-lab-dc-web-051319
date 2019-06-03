@@ -32,6 +32,9 @@ class App < Sinatra::Base
         num2 = params[:number2]
         operation = params[:operation]
         
+        sum = num1 + num2 
+        
+        
         
     end 
   
