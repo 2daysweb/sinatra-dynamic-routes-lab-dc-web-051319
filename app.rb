@@ -43,6 +43,8 @@ class App < Sinatra::Base
           result = num1 * num2 
         when "divide" 
           result = num1 / num2 
+        else 
+          puts "Enter a valid operation please"
         end 
         
         result 
