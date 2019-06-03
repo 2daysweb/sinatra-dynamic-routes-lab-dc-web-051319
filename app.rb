@@ -35,7 +35,10 @@ class App < Sinatra::Base
         
         case operation 
         
-        when "add" 
+        when "add"
+          result = num1 + num 2 
+        
+          
           
         
         
