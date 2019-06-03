@@ -17,6 +17,8 @@ class App < Sinatra::Base
     num = params[:number]
     phrase = params[:phrase]
     
+    phrase*num 
+    
     
     end 
   
