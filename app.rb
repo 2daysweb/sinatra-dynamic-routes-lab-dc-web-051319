@@ -18,6 +18,7 @@ class App < Sinatra::Base
     phrase = params[:phrase]
     
     repeated_string = phrase*num
+    puts repeated_string 
     
     
     
