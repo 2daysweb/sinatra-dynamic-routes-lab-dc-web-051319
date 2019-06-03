@@ -45,6 +45,7 @@ class App < Sinatra::Base
           result = num1 / num2 
         end 
         
+        result 
         
         
         
