@@ -31,8 +31,12 @@ class App < Sinatra::Base
         num1 = params[:number1]
         num2 = params[:number2]
         operation = params[:operation]
+        result = ""
         
-        case switch   
+        case operation 
+        
+        when "add" 
+          
         
         
         
