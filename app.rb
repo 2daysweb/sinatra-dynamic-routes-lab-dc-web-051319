@@ -39,7 +39,10 @@ class App < Sinatra::Base
           result = num1 + num2 
         when "subtract" 
           result = num1 - num2 
-          
+        when "multiply" 
+          result = num1 * num2 
+        when "divide" 
+          result = num1 / num2 
           
         
         
