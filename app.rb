@@ -47,7 +47,7 @@ class App < Sinatra::Base
           puts "Enter a valid operation please"
         end 
         
-        result 
+        result.to_s  
         
         
         
