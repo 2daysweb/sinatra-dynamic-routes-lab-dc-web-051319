@@ -21,6 +21,10 @@ class App < Sinatra::Base
     "#{repeated_string}"
     end 
     
-    get '/say/:word1/:word2/:word3/:word4/:word5'
+    get '/say/:word1/:word2/:word3/:word4/:word5' do 
+      
+      words_concat = "#{params[:word1]}
+      
+    end 
   
 end 
